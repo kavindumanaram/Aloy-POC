@@ -28,6 +28,6 @@ namespace CrudOperationCodeFirdt.Data
 			return teams;
 		}
 
-	private List<Player> getPlayers
+	public 
 	}
 }

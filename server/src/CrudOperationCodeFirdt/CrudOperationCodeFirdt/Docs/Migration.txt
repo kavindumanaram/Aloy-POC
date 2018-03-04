@@ -1,0 +1,3 @@
+﻿Enable-Migrations -ContextTypeName NhlContext -MigrationsDirectory Migration\NHL
+
+add-migration -ConfigurationTypeName CrudOperationCodeFirdt.Migration.NHL.Configuration "InitialCreate"

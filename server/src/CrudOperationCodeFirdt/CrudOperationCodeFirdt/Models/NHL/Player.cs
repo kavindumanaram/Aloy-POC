@@ -33,6 +33,10 @@ namespace CrudOperationCodeFirdt.Models.NHL
 		public string Position { get; set; }
 
 		public string TeamName { get; set; }
+
+		/// <summary>
+		/// instant of href=Team
+		/// </summary>
 		public Team Team { get; set; }
 
 	}

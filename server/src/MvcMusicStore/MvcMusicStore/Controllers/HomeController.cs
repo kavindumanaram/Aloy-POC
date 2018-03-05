@@ -14,11 +14,5 @@ namespace MvcMusicStore.Controllers
         {
             return View();
         }
-
-	    public ActionResult Details(int id)
-	    {
-			var album = new Album { Title = "Album" + id };
-		    return null;
-	    }
-    }
+	}
 }

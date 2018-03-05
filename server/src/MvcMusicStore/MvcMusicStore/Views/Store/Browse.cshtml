@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@model MvcMusicStore.Models.Genre
+
+
+<!DOCTYPE html>
 <html>
 <head>
 	<title>@ViewBag.Title</title>
@@ -10,16 +13,26 @@
 <body>
 <div id="header">
 	<h1>
-		ASP.NET MVC MUSIC STORE</h1>
+		ASP.NET MVC MUSIC STORE
+	</h1>
 	<ul id="navlist">
-		<li class="first"><a href="/"
-		                     id="current">Home</a></li>
-		<li><a
-			    href="/Store/">Store</a></li>
+		<li class="first">
+			<a href="/"
+			   id="current">Home</a>
+		</li>
+		<li>
+			<a href="/Store/">Store</a>
+		</li>
 	</ul>
 </div>
 @{
 	Layout = "~/Views/Shared/_Layout.cshtml";
 }
+	
+@{
+	ViewBag.Title = "Browse";
+}
+
+<h2>Browse Genre : @Model.Name</h2>
 </body>
 </html>
